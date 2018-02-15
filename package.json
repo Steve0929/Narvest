@@ -4,7 +4,7 @@
   "description": "Narvest",
   "main": "fruit.js",
   "scripts": {
-    
+     "start": "node fruit.js"
   },
   "author": "Steve2606",
   "license": "ISC",
