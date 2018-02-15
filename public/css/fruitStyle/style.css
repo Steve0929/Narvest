@@ -1,0 +1,207 @@
+
+.colores2{
+
+background: #C9F0FF;
+
+}
+
+
+.form-control{
+  width: 40% !important;
+  margin-left: 60%;
+
+}
+
+.well{
+background: #ABEDC6 !important;
+border-radius: 13px !important;
+
+}
+
+
+.buttonin-index{
+width: 30%;
+height: 50px;
+}
+
+.pulla-right{
+float: right;
+padding-right: 20px;
+}
+
+.pulla-left{
+float: left;
+}
+
+.imga:hover{
+  height:265px;
+    width: 265px;
+}
+
+
+.jumbotron{
+  margin-bottom: 0 !important;
+}
+
+.team-grids p{
+	width: 78%;
+	color: #000;
+	font-size: 0.8755em;
+	font-weight: 300;
+	padding-bottom: 4.3%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.9em;
+}
+.team-grids h2{
+	color: #777;
+	font-size: 2.5em;
+	font-weight: 300;
+	padding-bottom: 1%;
+}
+
+.images_1_of_4{
+	display: block;
+	float:left;
+	margin-left:3%;
+	text-align: center;
+}
+.images_1_of_4:first-child {
+	margin-left: 0;
+}
+.images_1_of_4 {
+	width: 21.6%;
+}
+.images_1_of_4 a.radius img{
+	max-width: 100%;
+	cursor: pointer;
+	border-radius:30em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+.images_1_of_4 a img:hover{
+	opacity: 0.7;
+}
+.images_1_of_4  h3{
+	color: #777;
+	font-size:1.5em;
+	font-weight :400;
+	padding: 0.9em 0em 0.3em 0em;
+}
+.images_1_of_4  p {
+	font-size: 1.15em;
+	font-weight: 400;
+  color: #666;
+	text-align: center;
+	line-height: 1.9em;
+	padding: 0em 0em 1.5em 0em;
+}
+@media only screen and (max-device-width: 480px) {
+
+
+
+.buttonin-index{
+width: 80%;
+
+}
+
+#canvas{
+   cursor:pointer;
+    width: 100%;
+}
+
+.chat{
+width: 100%;
+margin-left: 0px;
+  }
+
+.form-control{
+width: 100% !important;
+margin-left: 0px;
+
+            }
+
+.img-circle-small{
+width: 20%;
+height: 20%;
+                 }
+
+.img-circle{
+width: 45%;
+height: 45%;
+           }
+
+.pulla-right{
+float: none;
+            }
+
+.pulla-left{
+float: none;
+           }
+
+.circ{
+width: 150px;
+height: 100px;
+position: relative;
+margin:0 auto;
+margin-top: 10px;
+padding-left: 25px;
+        }
+
+.circ>img{
+width: 100%;
+height: 100%;
+overflow: hidden;
+          }
+
+.pull-right{
+padding-right: 0px;
+padding: 0px;
+float: none;
+
+}
+
+.pull-left{
+padding-left: 0px;
+float: none;
+          }
+
+.container-fluidend {
+padding-bottom: 150px;
+ opacity: 1;
+ width: 100%;
+                    }
+
+
+.formulaModal{
+width: 100%;
+max-width: 500px;
+height: auto;
+position: absolute;
+padding: 10px 25px;
+background: #eee;
+margin-top: 270px;
+box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+border-radius: 4px;
+            }
+
+.button-block{
+width: 100%;
+height: 100%;
+display: block;
+            }
+
+.buttonin {
+width: 100%;
+          }
+
+}
+
+.fin:hover{
+  opacity: 0.7;
+}
