@@ -1,0 +1,19 @@
+{
+  "name": "Esteban",
+  "version": "1.0.0",
+  "description": "Narvest",
+  "main": "fruit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve2606",
+  "license": "ISC",
+  "dependencies" :{
+    "socket.io" :"*",
+    "request" :"*",
+    "cheerio" :"*",
+    "fs" :"*",
+    "express" : "*"
+
+    }
+}
