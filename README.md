@@ -7,9 +7,10 @@ Narvest is a platform that displays information on the daily price of a series o
 ### Tech
 
 * [cheerio] - Used for Web scraping and getting the prices of the products.
-* [node.js] - Server.
+* [node.js] - Backend Server.
 * [Express] - node.js network app framework.
-* [Twitter Bootstrap] 
+* [Bootstrap] 
+* [jQuery]
 
 
 ### Installation
@@ -21,3 +22,16 @@ Install the dependencies and run fruit.js
 $ npm install 
 $ node fruit.js
 ```
+
+
+
+
+
+
+
+
+[node.js]: <http://nodejs.org>
+[Bootstrap]: <http://twitter.github.com/bootstrap/>
+[jQuery]: <http://jquery.com>
+[express]: <http://expressjs.com>
+[cheerio]: <https://github.com/cheeriojs/cheerio>
