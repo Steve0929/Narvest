@@ -2,7 +2,7 @@
 <img src ="https://img.shields.io/badge/created-February%202018-ff69b4.svg"/>
 <img src="https://github.com/Steve0929/Narvest/blob/master/public/fruits/fruit.png" width="150" height="150" />
 
-Narvest is a platform that displays information on the daily price of a series of fruits in Colombia.
+Narvest is a platform that displays information on the daily price of a series of fruits in Colombia. The information is retrieved by using a web scrapper which extracts the prices from [Corabastos] (the Colombian organization that manages the agricultural market).
 
 
 ### Tech
@@ -35,3 +35,4 @@ $ node fruit.js
 [express]: <http://expressjs.com>
 [cheerio]: <https://github.com/cheeriojs/cheerio>
 [request]: <https://github.com/request/request>
+[corabastos]: <http://www.corabastos.com.co/sitio/historicoApp2/reportes/index.php>
