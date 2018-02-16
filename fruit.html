@@ -60,7 +60,7 @@ crossorigin="anonymous"></script>
               <a href="#man" class="radius" data-toggle="collapse"><img src="fruits/apple.png"></a>
               <h3>Manzana</h3>
               <div id="man" class="collapse">
-              <h3>...</h3>
+              <h4>...</h4>
               </div>
 
             </div>
@@ -68,7 +68,7 @@ crossorigin="anonymous"></script>
                <a href="#coc" class="radius" data-toggle="collapse" ><img src="fruits/coconut.png"></a>
                <h3>Coco</h3>
                <div id="coc" class="collapse">
-               <h3>...</h3>
+               <h4>...</h4>
                </div>
 
             </div>
@@ -76,7 +76,7 @@ crossorigin="anonymous"></script>
                <a href="#go" data-toggle="collapse" class="radius"><img src="fruits/mango.png"></a>
                <h3>Mango</h3>
                <div id="go" class="collapse">
-               <h3 >...</h3>
+               <h4>...</h4>
                </div>
 
             </div>
@@ -84,7 +84,7 @@ crossorigin="anonymous"></script>
                <a href="#ban" data-toggle="collapse" class="radius"><img src="fruits/banana.png"></a>
                <h3>Banano</h3>
                <div id="ban" class="collapse">
-               <h3>...</h3>
+               <h4>...</h4>
                </div>
 
             </div>
@@ -116,16 +116,16 @@ crossorigin="anonymous"></script>
 
 <script>
 $('#had').hide(0);
-  $('#chati').hide(0);
+$('#chati').hide(0);
 
 $(document).ready(function(){
+$('#had').fadeToggle(1200);
+$('#chati').slideToggle(1300);
 var dia;
 var manzIn;
 var cocoIn;
 var mangIn;
 var banaIn;
-    $('#had').fadeToggle(1200);
-    $('#chati').slideToggle(1300);
 
   $.get("/getInfo", function(arr) {
 
@@ -134,11 +134,11 @@ var banaIn;
         cocoIn = arr[2];
         banaIn = arr[3];
         mangIn= arr[4];
-        document.getElementById("fecha").innerHTML = "<h3> Actualizado el "+dia+"</h3>";
-        document.getElementById("man").innerHTML = "<h3>"+manzIn+"</h3>";
-        document.getElementById("coc").innerHTML ="<h3>"+cocoIn+"</h3>";
-        document.getElementById("go").innerHTML = "<h3>"+mangIn+"</h3>";
-        document.getElementById("ban").innerHTML ="<h3>"+banaIn+"</h3>";
+        document.getElementById("fecha").innerHTML = "<h4> Actualizado el "+dia+".</h4>";
+        document.getElementById("man").innerHTML = "<h4>"+manzIn+".</h4>";
+        document.getElementById("coc").innerHTML ="<h4>"+cocoIn+".</h4>";
+        document.getElementById("go").innerHTML = "<h4>"+mangIn+".</h4>";
+        document.getElementById("ban").innerHTML ="<h4>"+banaIn+".</h4>";
       })
 
   });
