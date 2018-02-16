@@ -104,7 +104,29 @@ float: left;
 	line-height: 1.9em;
 	padding: 0em 0em 1.5em 0em;
 }
+
+.collapse h4{
+
+}
+
+.collapse{
+
+
+}
+
+
+.card-body{
+  color: #777;
+  font-size:1.8em;
+  font-weight :400;
+  padding: 0;
+  text-align: left;
+}
 @media only screen and (max-device-width: 480px) {
+
+.container-fluids{
+  padding-top: 0px !important;
+  }
 
   .images_1_of_4  h4{
   	color: #777;
