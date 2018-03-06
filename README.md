@@ -21,7 +21,7 @@ Install the dependencies and run fruit.js
 $ npm install 
 $ node fruit.js
 ```
-
+Navigate to http://localhost:3000/
 
 
 
@@ -36,3 +36,4 @@ $ node fruit.js
 [cheerio]: <https://github.com/cheeriojs/cheerio>
 [request]: <https://github.com/request/request>
 [corabastos]: <http://www.corabastos.com.co/sitio/historicoApp2/reportes/index.php>
+.[http://localhost:3000/]: <http://localhost:3000/>
