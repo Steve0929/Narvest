@@ -36,4 +36,4 @@ Navigate to http://localhost:3000/
 [cheerio]: <https://github.com/cheeriojs/cheerio>
 [request]: <https://github.com/request/request>
 [corabastos]: <http://www.corabastos.com.co/sitio/historicoApp2/reportes/index.php>
-.[http://localhost:3000/]: <http://localhost:3000/>
+
