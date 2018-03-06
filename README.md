@@ -21,7 +21,7 @@ Install the dependencies and run fruit.js
 $ npm install 
 $ node fruit.js
 ```
-Navigate to http://localhost:3000/
+* Navigate to http://localhost:3000/
 
 
 
