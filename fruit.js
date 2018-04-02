@@ -62,9 +62,9 @@ request(target, function(err, response, body) {
           console.log("En el día de hoy una unidad de " +mango.children().eq(0).text()+" Cuesta "+mango.children().eq(6).text());
 
           arr[1] = "En el día de hoy un "+ manzana.children().eq(1).text()+" de " +manzana.children().eq(0).text()+" Cuesta "+manzana.children().eq(6).text();
-          arr[2] = "En el día de hoy una "+ coco.children().eq(1).text()+" de " +coco.children().eq(0).text()+" Cuesta "+coco.children().eq(6).text();
-          arr[3] = "En el día de hoy un "+ banano.children().eq(1).text()+" de " +banano.children().eq(0).text()+" Cuesta "+banano.children().eq(6).text();
-          arr[4] = "En el día de hoy una "+ mango.children().eq(1).text()+" de " +mango.children().eq(0).text()+" Cuesta "+mango.children().eq(6).text();
+          arr[2] = "En el día de hoy un "+ coco.children().eq(3).text()+" de " +coco.children().eq(0).text()+" Cuesta "+coco.children().eq(6).text();
+          arr[3] = "En el día de hoy un "+ banano.children().eq(3).text()+" de " +banano.children().eq(0).text()+" Cuesta "+banano.children().eq(6).text();
+          arr[4] = "En el día de hoy un "+ mango.children().eq(3).text()+" de " +mango.children().eq(0).text()+" Cuesta "+mango.children().eq(6).text();
 
 
 
