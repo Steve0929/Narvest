@@ -7,7 +7,7 @@ var fs =require('fs');
 
 var target = 'http://www.corabastos.com.co/sitio/historicoApp2/reportes/index.php';
 var arr= [];
-
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"; // :p 
 app.use(express.static(__dirname + '/public'));
 
 server.listen(process.env.PORT || 3000);
