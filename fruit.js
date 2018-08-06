@@ -18,8 +18,6 @@ app.get('/', function(req, res){
 
           });
 
-
-
 request(target, function(err, response, body) {
         if(!err){
           var $ = cheer.load(body);
@@ -54,7 +52,7 @@ request(target, function(err, response, body) {
           //console.log(manzana);
           //console.log(mango);
           //console.log(banano);
-
+                    
           console.log(price_manzana);
           console.log("En el día de hoy una unidad de " +manzana.children().eq(0).text()+" Cuesta "+manzana.children().eq(6).text());
           console.log("En el día de hoy una unidad de " +coco.children().eq(0).text()+" Cuesta "+coco.children().eq(6).text());
@@ -65,9 +63,6 @@ request(target, function(err, response, body) {
           arr[2] = "En el día de hoy un "+ coco.children().eq(3).text()+" de " +coco.children().eq(0).text()+" Cuesta "+coco.children().eq(6).text();
           arr[3] = "En el día de hoy un "+ banano.children().eq(3).text()+" de " +banano.children().eq(0).text()+" Cuesta "+banano.children().eq(6).text();
           arr[4] = "En el día de hoy un "+ mango.children().eq(3).text()+" de " +mango.children().eq(0).text()+" Cuesta "+mango.children().eq(6).text();
-
-
-
         }
 
 app.get("/getInfo", function(req, res) {
